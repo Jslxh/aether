@@ -1,90 +1,130 @@
-# AETHER - AI Industry Intelligence Agent
+# TREXO - AI Industry Intelligence Agent
 
 ## Overview
 
-AETHER is an autonomous AI intelligence agent built using n8n and OpenRouter.
+TREXO is an autonomous AI Industry Intelligence Agent built using n8n and OpenRouter.
 
-The system continuously monitors leading AI news sources, filters relevant developments, analyzes trends using Large Language Models (LLMs), and automatically delivers concise intelligence briefings through email.
+The system continuously monitors leading AI news sources, filters high-impact developments, analyzes emerging trends using Large Language Models (LLMs), and automatically delivers professional AI intelligence briefings through email.
+
+TREXO helps AI engineers, researchers, and technology enthusiasts stay updated with the most important developments in the rapidly evolving AI ecosystem.
 
 ---
 
 ## Problem Statement
 
-AI news is scattered across multiple platforms such as OpenAI, Google AI, Microsoft AI, Hugging Face, and Hacker News.
+The AI industry generates hundreds of updates daily across multiple platforms such as OpenAI, Anthropic, Google AI, Microsoft AI, Hugging Face, and Hacker News.
 
-Professionals often spend significant time tracking updates and identifying meaningful trends.
+Tracking these developments manually is time-consuming and often leads to information overload.
 
-AETHER automates this process by collecting, filtering, analyzing, and delivering AI intelligence reports.
+TREXO automates the entire intelligence workflow by collecting, filtering, analyzing, and summarizing AI news into concise and actionable daily briefings.
 
 ---
 
 ## Features
 
-- Automated RSS aggregation
-- Multi-source AI news monitoring
-- AI-powered trend analysis
-- Research insight extraction
-- Automated email delivery
-- Scheduled execution
-- Low-cost deployment using OpenRouter
+* Automated RSS Feed Aggregation
+* Multi-Source AI News Monitoring
+* AI-Powered News Filtering
+* Trend Analysis and Insight Extraction
+* Daily AI Intelligence Brief Generation
+* Automated Email Newsletter Delivery
+* Scheduled Workflow Automation
+* Low-Cost Deployment using OpenRouter
 
 ---
 
 ## Tech Stack
 
-- n8n
-- OpenRouter
-- NVIDIA Nemotron
-- SMTP (Gmail)
-- RSS Feeds
+* n8n
+* OpenRouter
+* NVIDIA Nemotron
+* SMTP (Gmail)
+* RSS Feeds
+* HTML Email Templates
 
 ---
 
 ## Workflow Architecture
 
-RSS Sources
-→ Filtering
+AI News Sources
+
+→ RSS Collection
+
+→ AI News Filtering
+
 → Merge & Aggregation
-→ AI Analysis
+
+→ LLM-Based Analysis
+
 → Trend Extraction
+
+→ Newsletter Generation
+
 → Email Delivery
 
 ---
 
 ## Sources Monitored
 
-- OpenAI
-- Google AI
-- Microsoft AI
-- Hugging Face
-- Hacker News
+* OpenAI
+* Anthropic
+* Google AI
+* Microsoft AI
+* Hugging Face
+* Hacker News
 
 ---
 
 ## Sample Output
 
-🚀 AETHER Daily AI Brief
+TREXO Daily AI Brief
 
-🔥 Top AI News
+Top AI News
 
-📈 Biggest Trend
+* Summary
+* Why It Matters
+* Read More
 
-🧠 Important Research
+Biggest Trend
 
-🎯 Action for AI Engineers
+Important Research
+
+Action for AI Engineers
+
+---
+
+## Project Highlights
+
+* Monitors multiple trusted AI news sources automatically
+* Identifies the most important AI developments
+* Generates concise and actionable intelligence reports
+* Delivers professional newsletter-style briefings
+* Reduces information overload for AI professionals
 
 ---
 
 ## Future Scope
 
-- WhatsApp Integration
-- AI Trend Prediction
-- Historical Trend Database
-- Personalized AI News Delivery
+* WhatsApp Integration
+* Personalized AI Briefings
+* Historical Trend Database
+* AI Trend Prediction
+* Web Dashboard
+* Slack and Discord Integration
+* Vector Database for Long-Term Knowledge Tracking
 
 ---
 
 ## Author
 
-Jaya Shree Lakshmi
-AI Engineer | Agentic AI | Automation
+**Jaya Shree Lakshmi**
+
+AI Engineer | Agentic AI | Automation | AI Systems
+
+---
+
+## Version
+
+**TREXO v1.0**
+
+AI Industry Intelligence Agent
